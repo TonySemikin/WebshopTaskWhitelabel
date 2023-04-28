@@ -1,0 +1,35 @@
+.order-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__info {
+    flex: 3;
+    display: flex;
+    align-items: start;
+
+    &-image {
+      border-radius: 10px;
+    }
+
+    &-name {
+      margin-left: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #2b2b2b;
+    }
+
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 14px;
+    color: #2b2b2b;
+
+    span:last-of-type {
+      font-weight: bold;
+    }
+  }
+}

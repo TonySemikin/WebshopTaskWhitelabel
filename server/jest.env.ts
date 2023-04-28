@@ -1,0 +1,13 @@
+process.env.SERVER_HOST = 'http://0.0.0.0';
+process.env.SERVER_PORT = '8080';
+process.env.DB_HOST = 'mongodb://localhost';
+process.env.DB_PORT = '27017';
+process.env.DB_NAME = 'domain';
+process.env.DB_USERNAME = 'root';
+process.env.DB_PASSWORD = 'root';
+process.env.DB_AUTHSOURCE = 'admin';
+process.env.DB_CONNECTION_TIMEOUT = '5000';
+process.env.API_BASE_URL = '/api';
+process.env.API_VERSION = 'v1';
+process.env.LOG_OUTPUT_LEVEL = '';
+process.env.LOG_CONSOLE_LEVEL = '';

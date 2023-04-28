@@ -1,0 +1,736 @@
+{
+  "categories": [
+    {
+      "name": "Fruits",
+      "description": "Nature's sweet and juicy treats for all.",
+      "items": [
+        {
+          "name": "Apples",
+          "description": "Sweet, crunchy fruits that are a great source of fiber and vitamin C.",
+          "price": 1.2,
+          "stock": 5
+        },
+        {
+          "name": "Bananas",
+          "description": "Soft, sweet fruits that are a great source of potassium and vitamin C.",
+          "price": 1.0,
+          "stock": 100
+        },
+        {
+          "name": "Oranges",
+          "description": "Juicy, citrusy fruits that are a great source of vitamin C.",
+          "price": 1.5,
+          "stock": 7
+        },
+        {
+          "name": "Strawberries",
+          "description": "Sweet, juicy berries that are a great source of antioxidants.",
+          "price": 2.5,
+          "stock": 8
+        },
+        {
+          "name": "Blueberries",
+          "description": "Small, sweet berries that are a great source of antioxidants.",
+          "price": 3.0,
+          "stock": 100
+        },
+        {
+          "name": "Grapes",
+          "description": "Sweet, juicy fruits that are great for snacking or making wine.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Pineapples",
+          "description": "Sweet, tropical fruits with a prickly exterior that are a great source of vitamin C.",
+          "price": 2.5,
+          "stock": 4
+        },
+        {
+          "name": "Mangoes",
+          "description": "Sweet, juicy tropical fruits that are a great source of vitamin C.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Pears",
+          "description": "Sweet, juicy fruits that are a great source of fiber and vitamin C.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Peaches",
+          "description": "Juicy, sweet fruits with a fuzzy exterior that are a great source of vitamin C.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Plums",
+          "description": "Sweet, juicy fruits with a smooth exterior that are a great source of vitamin C.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Kiwi",
+          "description": "Small, tart fruits with a fuzzy exterior that are a great source of vitamin C.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Cherries",
+          "description": "Small, sweet fruits with a hard pit that are a great source of antioxidants.",
+          "price": 4.0,
+          "stock": 100
+        },
+        {
+          "name": "Grapefruit",
+          "description": "Juicy, citrusy fruits that are a great source of vitamin C.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Raspberries",
+          "description": "Sweet, juicy berries that are a great source of fiber and antioxidants.",
+          "price": 3.5,
+          "stock": 100
+        },
+        {
+          "name": "Blackberries",
+          "description": "Sweet, juicy berries that are a great source of antioxidants.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Cantaloupe",
+          "description": "Sweet, juicy melons that are a great source of vitamin C.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Watermelon",
+          "description": "Juicy, refreshing melons that are a great source of hydration.",
+          "price": 0.8,
+          "stock": 5
+        },
+        {
+          "name": "Apricots",
+          "description": "Small, sweet fruits with a smooth exterior that are a great source of vitamin C.",
+          "price": 2.2,
+          "stock": 100
+        },
+        {
+          "name": "Clementines",
+          "description": "Sweet, juicy citrus fruits that are a great source of vitamin C.",
+          "price": 1.8,
+          "stock": 6
+        },
+        {
+          "name": "Cranberries",
+          "description": "Tart, juicy berries that are a great source of antioxidants.",
+          "price": 3.0,
+          "stock": 100
+        },
+        {
+          "name": "Currants",
+          "description": "Small, tart berries that are a great source of vitamin C.",
+          "price": 4.5,
+          "stock": 3
+        },
+        {
+          "name": "Dates",
+          "description": "Sweet, chewy fruits with a wrinkled exterior that are a great source of energy.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Figs",
+          "description": "Sweet, chewy fruits with a smooth exterior that are a great source of fiber.",
+          "price": 3.2,
+          "stock": 100
+        },
+        {
+          "name": "Guanabana",
+          "description": "Tropical, prickly fruit with a creamy, sweet interior that is a great source of vitamin C.",
+          "price": 5.0,
+          "stock": 100
+        },
+        {
+          "name": "Guava",
+          "description": "Tropical, sweet fruit with a hard exterior that is a great source of vitamin C.",
+          "price": 2.8,
+          "stock": 6
+        },
+        {
+          "name": "Kumquats",
+          "description": "Small, tart citrus fruits with a thin, edible skin that are a great source of vitamin C.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Lychees",
+          "description": "Small, sweet tropical fruits with a hard exterior that are a great source of vitamin C.",
+          "price": 5.5,
+          "stock": 100
+        },
+        {
+          "name": "Mandarins",
+          "description": "Sweet, juicy citrus fruits that are a great source of vitamin C.",
+          "price": 2.0,
+          "stock": 8
+        },
+        {
+          "name": "Mangosteen",
+          "description": "Tropical, tangy fruit with a hard exterior and sweet, juicy interior that is a great source of antioxidants.",
+          "price": 6.0,
+          "stock": 5
+        },
+        {
+          "name": "Nectarines",
+          "description": "Juicy, sweet fruits with a smooth exterior that are a great source of vitamin C.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Passionfruit",
+          "description": "Tropical, tart fruit with a hard exterior and sweet, juicy interior that is a great source of vitamin C.",
+          "price": 4.0,
+          "stock": 100
+        },
+        {
+          "name": "Pomegranates",
+          "description": "Juicy, tart fruits with a hard exterior that are a great source of antioxidants.",
+          "price": 3.5,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "description": "Fresh, colorful produce for a healthy diet.",
+      "items": [
+        {
+          "name": "Broccoli",
+          "description": "A nutrient-packed green vegetable with a mildly bitter taste.",
+          "price": 1.5,
+          "stock": 5
+        },
+        {
+          "name": "Carrots",
+          "description": "Sweet and crunchy root vegetables rich in beta-carotene.",
+          "price": 0.8,
+          "stock": 100
+        },
+        {
+          "name": "Bell peppers",
+          "description": "Vibrant and colorful peppers with a mild, sweet taste.",
+          "price": 1.2,
+          "stock": 3
+        },
+        {
+          "name": "Tomatoes",
+          "description": "Juicy and acidic fruits that are a staple in many dishes.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Cucumbers",
+          "description": "Cool and refreshing vegetables that are great for salads.",
+          "price": 1.0,
+          "stock": 100
+        },
+        {
+          "name": "Onions",
+          "description": "Pungent and versatile vegetables used in countless recipes.",
+          "price": 0.6,
+          "stock": 100
+        },
+        {
+          "name": "Cauliflower",
+          "description": "A nutritious white vegetable that can be roasted, mashed or boiled.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Spinach",
+          "description": "Leafy greens packed with vitamins and minerals, great for salads or sautéing.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Zucchini",
+          "description": "Mild, tender vegetables that can be grilled, baked or fried.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Sweet potatoes",
+          "description": "Sweet, starchy root vegetables that are a great alternative to regular potatoes.",
+          "price": 1.7,
+          "stock": 6
+        },
+        {
+          "name": "Green beans",
+          "description": "Crunchy, green vegetables that are a great source of protein.",
+          "price": 2.2,
+          "stock": 100
+        },
+        {
+          "name": "Artichokes",
+          "description": "Nutritious, leafy vegetables that can be boiled, grilled or roasted.",
+          "price": 3.5,
+          "stock": 100
+        },
+        {
+          "name": "Asparagus",
+          "description": "Tender, green spears that are a great source of fiber and folate.",
+          "price": 4.0,
+          "stock": 100
+        },
+        {
+          "name": "Beets",
+          "description": "Sweet, earthy vegetables that are a great source of iron and antioxidants.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Eggplant",
+          "description": "Meaty, versatile vegetables that can be grilled, baked or sautéed.",
+          "price": 2.0,
+          "stock": 6
+        },
+        {
+          "name": "Radishes",
+          "description": "Spicy, crunchy root vegetables that add a pop of color and flavor to salads.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Cabbage",
+          "description": "Dense, cruciferous vegetables that can be shredded or sautéed.",
+          "price": 1.2,
+          "stock": 7
+        },
+        {
+          "name": "Leeks",
+          "description": "Mild, sweet onions with a delicate flavor that are great for soups and stews.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Brussels sprouts",
+          "description": "Tiny, green vegetables with a slightly bitter taste that can be roasted or sautéed.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Mushrooms",
+          "description": "Earthy, versatile fungi that can be sautéed, grilled or stuffed.",
+          "price": 3.0,
+          "stock": 100
+        },
+        {
+          "name": "Celeriac",
+          "description": "Knobby, root vegetable with a nutty taste, great for roasting or mashing.",
+          "price": 1.6,
+          "stock": 100
+        },
+        {
+          "name": "Fennel",
+          "description": "Crunchy, anise-flavored vegetable that is great for salads or roasting.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Kale",
+          "description": "Leafy greens packed with vitamins and minerals, great for salads or sautéing.",
+          "price": 2.2,
+          "stock": 100
+        },
+        {
+          "name": "Parsnips",
+          "description": "Sweet, nutty root vegetables that are great for roasting or mashing.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Rutabaga",
+          "description": "Yellow root vegetable with a slightly sweet taste, great for soups or roasting.",
+          "price": 1.7,
+          "stock": 100
+        },
+        {
+          "name": "Swiss chard",
+          "description": "Colorful leafy greens that are a great source of vitamins and minerals.",
+          "price": 2.5,
+          "stock": 8
+        },
+        {
+          "name": "Turnips",
+          "description": "Mild, sweet root vegetables that are great for roasting or mashing.",
+          "price": 1.4,
+          "stock": 100
+        },
+        {
+          "name": "Arugula",
+          "description": "Peppery leafy greens that are great for salads or as a pizza topping.",
+          "price": 2.3,
+          "stock": 100
+        },
+        {
+          "name": "Endive",
+          "description": "Bitter, crunchy leafy greens that are great for salads or as a garnish.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Okra",
+          "description": "Slimy, green vegetables that are great for stews or frying.",
+          "price": 3.2,
+          "stock": 100
+        },
+        {
+          "name": "Pumpkin",
+          "description": "Sweet, starchy squash that is great for roasting or making soup.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Radicchio",
+          "description": "Bitter, red leafy greens that are great for salads or grilling.",
+          "price": 2.6,
+          "stock": 100
+        },
+        {
+          "name": "Squash",
+          "description": "Versatile, sweet vegetables that are great for roasting or making soup.",
+          "price": 1.9,
+          "stock": 100
+        },
+        {
+          "name": "Sweet corn",
+          "description": "Juicy, sweet kernels that are great for grilling or making soup.",
+          "price": 1.2,
+          "stock": 8
+        },
+        {
+          "name": "Sweet peppers",
+          "description": "Colorful and sweet peppers that are great for grilling or stuffing.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Jicama",
+          "description": "Crunchy, sweet root vegetable with a mild taste, great for salads or slaws.",
+          "price": 2.2,
+          "stock": 100
+        },
+        {
+          "name": "Watercress",
+          "description": "Peppery leafy greens that are great for salads or as a garnish.",
+          "price": 3.5,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "name": "Cheese",
+      "description": "Savory, creamy goodness for any dish.",
+      "items": [
+        {
+          "name": "Cheddar",
+          "description": "Firm, sharp cheese that is great for snacking or melting.",
+          "price": 2.5,
+          "stock": 8
+        },
+        {
+          "name": "Mozzarella",
+          "description": "Mild, stretchy cheese that is great for pizzas and sandwiches.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Gouda",
+          "description": "Semi-hard, nutty cheese that is great for snacking or melting.",
+          "price": 3.2,
+          "stock": 7
+        },
+        {
+          "name": "Brie",
+          "description": "Soft, creamy cheese that is great for spreading on crackers or bread.",
+          "price": 4.0,
+          "stock": 100
+        },
+        {
+          "name": "Camembert",
+          "description": "Soft, creamy cheese with a bloomy rind that is great for spreading on crackers or bread.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Roquefort",
+          "description": "Salty, crumbly blue cheese that is great for salads or as a spread.",
+          "price": 5.5,
+          "stock": 100
+        },
+        {
+          "name": "Gorgonzola",
+          "description": "Sharp, tangy blue cheese that is great for salads or as a spread.",
+          "price": 5.0,
+          "stock": 100
+        },
+        {
+          "name": "Parmesan",
+          "description": "Hard, salty cheese that is great for grating over pasta or salads.",
+          "price": 3.5,
+          "stock": 100
+        },
+        {
+          "name": "Asiago",
+          "description": "Semi-hard, nutty cheese that is great for grating or melting.",
+          "price": 3.8,
+          "stock": 100
+        },
+        {
+          "name": "Manchego",
+          "description": "Firm, nutty cheese from Spain that is great for snacking or melting.",
+          "price": 5.2,
+          "stock": 2
+        },
+        {
+          "name": "Provolone",
+          "description": "Semi-hard, tangy cheese that is great for melting on sandwiches or pizzas.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Feta",
+          "description": "Salty, crumbly cheese that is great for salads or as a topping for pizza.",
+          "price": 3.2,
+          "stock": 5
+        },
+        {
+          "name": "Halloumi",
+          "description": "Salty, squeaky cheese from Cyprus that is great for grilling or frying.",
+          "price": 6.0,
+          "stock": 100
+        },
+        {
+          "name": "Ricotta",
+          "description": "Soft, creamy cheese that is great for spreading or as a filling for pasta dishes.",
+          "price": 3.8,
+          "stock": 100
+        },
+        {
+          "name": "Cottage cheese",
+          "description": "Soft, mild cheese that is great for snacking or as a topping for salads.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Mascarpone",
+          "description": "Soft, creamy cheese that is great for desserts or spreading on toast.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Blue cheese",
+          "description": "Sharp, crumbly cheese that is great for salads or as a spread.",
+          "price": 5.5,
+          "stock": 100
+        },
+        {
+          "name": "Havarti",
+          "description": "Semi-soft cheese that is great for snacking or melting.",
+          "price": 4.2,
+          "stock": 4
+        },
+        {
+          "name": "Emmental",
+          "description": "Swiss cheese with large holes and a nutty flavor that is great for melting.",
+          "price": 3.8,
+          "stock": 100
+        },
+        {
+          "name": "Jarlsberg",
+          "description": "Semi-hard cheese with a mild, nutty flavor that is great for snacking or melting.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Monterey Jack",
+          "description": "Semi-hard cheese with a mild, buttery flavor that is great for melting.",
+          "price": 3.2,
+          "stock": 100
+        },
+        {
+          "name": "Pepper Jack",
+          "description": "Monterey Jack cheese with spicy peppers added for flavor.",
+          "price": 3.5,
+          "stock": 100
+        },
+        {
+          "name": "Colby",
+          "description": "Semi-hard cheese with a mild, slightly sweet flavor that is great for snacking or melting.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Colby-Jack",
+          "description": "Blend of Colby and Monterey Jack cheeses with a mild, slightly sweet flavor that is great for snacking or melting.",
+          "price": 3.2,
+          "stock": 100
+        },
+        {
+          "name": "Muenster",
+          "description": "Semi-soft cheese with a mild, buttery flavor that is great for melting.",
+          "price": 3.8,
+          "stock": 7
+        },
+        {
+          "name": "Swiss cheese",
+          "description": "Semi-hard cheese with a mild, nutty flavor and small holes that is great for melting.",
+          "price": 4.0,
+          "stock": 100
+        },
+        {
+          "name": "Boursin",
+          "description": "Soft, spreadable cheese with herbs and garlic added for flavor.",
+          "price": 5.5,
+          "stock": 100
+        },
+        {
+          "name": "Chevre",
+          "description": "Soft, tangy goat cheese that is great for salads or as a spread.",
+          "price": 6.0,
+          "stock": 7
+        },
+        {
+          "name": "Cambozola",
+          "description": "Soft, creamy cheese with a blue mold that is great for spreading on crackers or bread.",
+          "price": 6.5,
+          "stock": 100
+        },
+        {
+          "name": "Gruyere",
+          "description": "Firm, nutty cheese from Switzerland that is great for melting.",
+          "price": 4.5,
+          "stock": 100
+        },
+        {
+          "name": "Fontina",
+          "description": "Semi-soft cheese from Italy with a mild, nutty flavor that is great for melting.",
+          "price": 5.2,
+          "stock": 100
+        },
+        {
+          "name": "Raclette",
+          "description": "Semi-soft cheese from Switzerland that is great for melting and scraping onto potatoes or bread.",
+          "price": 7.0,
+          "stock": 4
+        },
+        {
+          "name": "Taleggio",
+          "description": "Semi-soft cheese from Italy with a mild, tangy flavor that is great for melting.",
+          "price": 5.5,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "name": "Bakery",
+      "description": "Freshly baked goods for every occasion.",
+      "items": [
+        {
+          "name": "Baguette",
+          "description": "French bread with a crispy exterior and soft interior that is great for sandwiches or as a side.",
+          "price": 1.5,
+          "stock": 2
+        },
+        {
+          "name": "Croissant",
+          "description": "Buttery, flaky pastry that is great for breakfast or as a snack.",
+          "price": 1.2,
+          "stock": 7
+        },
+        {
+          "name": "Pain au chocolat",
+          "description": "Buttery pastry with chocolate filling that is great for breakfast or as a snack.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "Brioche",
+          "description": "Soft, slightly sweet bread that is great for French toast or as a base for sandwiches.",
+          "price": 1.8,
+          "stock": 3
+        },
+        {
+          "name": "Sourdough bread",
+          "description": "Bread made with a sourdough starter for a tangy flavor and chewy texture that is great for sandwiches or as a side.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Ciabatta",
+          "description": "Italian bread with a crispy exterior and soft interior that is great for sandwiches or as a side.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Focaccia",
+          "description": "Italian flatbread with a soft, chewy texture and savory toppings that is great for sandwiches or as a side.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Pita bread",
+          "description": "Middle Eastern bread with a pocket that is great for sandwiches or as a side.",
+          "price": 1.5,
+          "stock": 7
+        },
+        {
+          "name": "Naan",
+          "description": "Indian bread with a fluffy texture and slightly charred exterior that is great for dipping in curry or as a side.",
+          "price": 1.8,
+          "stock": 100
+        },
+        {
+          "name": "Bagel",
+          "description": "Ring-shaped bread with a chewy texture that is great for toasting and topping with cream cheese or other spreads.",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "name": "English muffin",
+          "description": "Small, round bread with a chewy texture that is great for toasting and topping with butter or jam.",
+          "price": 1.2,
+          "stock": 5
+        },
+        {
+          "name": "Cinnamon roll",
+          "description": "Sweet pastry with cinnamon and sugar filling that is great for breakfast or as a snack.",
+          "price": 2.0,
+          "stock": 100
+        },
+        {
+          "name": "Danish pastry",
+          "description": "Buttery pastry with fruit or cream filling that is great for breakfast or as a snack.",
+          "price": 2.5,
+          "stock": 100
+        },
+        {
+          "name": "Eclair",
+          "description": "Long, thin pastry filled with cream and topped with chocolate icing that is great for dessert or as a snack.",
+          "price": 2.8,
+          "stock": 100
+        },
+        {
+          "name": "Macaron",
+          "description": "Small, colorful cookie made with almond flour and filled with buttercream or other flavors that is great for dessert or as a snack.",
+          "price": 1.5,
+          "stock": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules
+build
+dist
+**/*.json
+**/*.yaml
+**/*.yml
+**/*.md
+Dockerfile
+Dockerfile.dev
+**/*.png
+coverage
+logs

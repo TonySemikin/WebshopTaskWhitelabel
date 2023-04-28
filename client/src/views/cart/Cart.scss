@@ -1,0 +1,36 @@
+.cart {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+
+  &__list {
+    overflow: auto;
+    height: 90%;
+    margin-bottom: 10px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    height: 10%;
+
+    &-total {
+      flex: 1;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      color: #2b2b2b;
+
+      &-currency {
+        font-size: 18px;
+        position: relative;
+        top: -6px;
+        left: -3px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+  }
+}

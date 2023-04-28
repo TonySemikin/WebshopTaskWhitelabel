@@ -1,0 +1,25 @@
+.cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__name {
+    flex: 6;
+  }
+
+  &__actions {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: red;
+    font-size: 16px;
+  }
+
+  &__info {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}

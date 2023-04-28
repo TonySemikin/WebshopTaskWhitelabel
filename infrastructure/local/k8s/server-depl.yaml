@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-depl
+  namespace: web-shop-showcase
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: server
+  template:
+    metadata:
+      labels:
+        app: server
+    spec:
+      containers:
+        - name: server
+          image: tony-web-shop-showcase/server
+          env:
+            - name: SERVER_HOST
+              value: '0.0.0.0'
+            - name: SERVER_PORT
+              value: '8080'
+            - name: DB_HOST
+              value: mongodb://server-mongo-srv
+            - name: DB_PORT
+              value: '27017'
+            - name: DB_NAME
+              value: web-shop-showcase-domain
+            - name: DB_USERNAME
+              value: root
+            - name: DB_PASSWORD
+              value: root
+            - name: DB_AUTHSOURCE
+              value: admin
+            - name: DB_CONNECTION_TIMEOUT
+              value: '15000'
+            - name: API_BASE_URL
+              value: /api
+            - name: API_VERSION
+              value: v1
+            - name: LOG_OUTPUT_LEVEL
+              value: trace
+            - name: LOG_CONSOLE_LEVEL
+              value: trace
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: server-srv
+  namespace: web-shop-showcase
+spec:
+  selector:
+    app: server
+  ports:
+    - name: server
+      protocol: TCP
+      port: 8080
+      targetPort: 8080

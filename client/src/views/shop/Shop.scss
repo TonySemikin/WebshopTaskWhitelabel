@@ -1,0 +1,12 @@
+.shop {
+  display: flex;
+  height: calc(100vh - var(--header-height));
+
+  &__categories {
+    flex-basis: 25%;
+  }
+
+  &__products {
+    flex: 1;
+  }
+}

@@ -1,0 +1,14 @@
+.order {
+  padding: 15px 50px;
+  width: 100vw;
+  height: calc(100vh - var(--header-height));
+  box-sizing: border-box;
+
+  &__stepper {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+    margin: 0 auto;
+  }
+}

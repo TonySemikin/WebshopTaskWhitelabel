@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "c7e7e8e9-53a6-4abe-af84-e8064d78d43d",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/welcome",
+    "url": "{{url}}/welcome",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-12T07:06:58.011Z",
+    "modified": "2023-04-12T07:06:58.011Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

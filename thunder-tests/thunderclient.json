@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "64e1ac26-ea79-498a-afa0-96bcbbe59705",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Create Category",
+    "url": "{{url}}/ims/categories",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-04-12T07:11:27.190Z",
+    "modified": "2023-04-15T17:39:14.031Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Cheese\",\n  \"description\": \"Savory, creamy goodness for any dish.\"\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "4b5230ff-6d8c-4f7a-ba88-e6373c1f7f79",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Update Category Name and Description",
+    "url": "{{url}}/ims/categories/6436debf33dcef309dccf6a9/update",
+    "method": "PATCH",
+    "sortNum": 23750,
+    "created": "2023-04-12T08:47:51.974Z",
+    "modified": "2023-04-12T16:40:42.578Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Super Vegetables\",\n  \"description\": \"Super delicious vegetables\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "00e6a539-6b0a-4be7-b4a1-815a84a11297",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Get Categories",
+    "url": "{{url}}/ims/categories",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-04-12T09:06:01.094Z",
+    "modified": "2023-04-12T16:40:24.236Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "categoriesIds[]",
+        "value": "6436deb633dcef309dccf6a5",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "ba78f93b-b50e-4200-b5a4-00fdaa54d169",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Create Product",
+    "url": "{{url}}/ims/products",
+    "method": "POST",
+    "sortNum": 27500,
+    "created": "2023-04-12T09:32:55.418Z",
+    "modified": "2023-04-14T16:21:45.262Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Banana\",\n  \"description\": \"fresh cucumber banana 7\",\n  \"categoriesIds\": [ \"64397bb6d23d599f0e15b0e3\"],\n  \"price\": 2.50\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "bd48f569-9d14-4ccf-abd9-d1962d07fb4c",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Update Product Name and Description",
+    "url": "{{url}}/ims/products/6436df5833dcef309dccf6e2/update",
+    "method": "PATCH",
+    "sortNum": 37500,
+    "created": "2023-04-12T09:50:19.197Z",
+    "modified": "2023-04-12T16:43:58.558Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Lemon\",\n  \"description\": \"Awesome lemon\"\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "bce517b0-de11-4dc7-97f7-6b8e9f848155",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Add Category to Product",
+    "url": "{{url}}/ims/products/6436df5833dcef309dccf6e2/add-category",
+    "method": "PATCH",
+    "sortNum": 47500,
+    "created": "2023-04-12T09:52:08.683Z",
+    "modified": "2023-04-12T16:44:30.880Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"categoryId\": \"6436dec833dcef309dccf6af\"\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "e9fa6544-8ca6-4854-8b97-5ae172376c48",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Remove Category from Product",
+    "url": "{{url}}/ims/products/6436df5833dcef309dccf6e2/remove-category",
+    "method": "PATCH",
+    "sortNum": 57500,
+    "created": "2023-04-12T09:53:05.897Z",
+    "modified": "2023-04-12T16:44:57.213Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"categoryId\": \"6436debf33dcef309dccf6a9\"\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "72c00d7a-ede7-41a3-b709-6c98929403e2",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Update Product Price",
+    "url": "{{url}}/ims/products/6436df5833dcef309dccf6e2/update-price",
+    "method": "PATCH",
+    "sortNum": 67500,
+    "created": "2023-04-12T10:01:29.833Z",
+    "modified": "2023-04-12T16:45:06.760Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"price\": 4.30\n}",
+      "form": []
+    },
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "contains",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "da567352-be1a-490f-956a-ab255ff0156d",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Get Products",
+    "url": "{{url}}/ims/products?categoryId=6436deb633dcef309dccf6a5&from=1&to=20",
+    "method": "GET",
+    "sortNum": 25625,
+    "created": "2023-04-12T10:15:13.655Z",
+    "modified": "2023-04-12T16:43:12.236Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "categoryId",
+        "value": "6436deb633dcef309dccf6a5",
+        "isPath": false
+      },
+      {
+        "name": "from",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "to",
+        "value": "20",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "2d9c7273-b50e-4a60-8750-2e24dfb73756",
+    "colId": "26b9b478-88b4-4f63-9e78-d0da58e536e8",
+    "containerId": "",
+    "name": "Get Product By Id",
+    "url": "{{url}}/ims/products/6436df5833dcef309dccf6e2",
+    "method": "GET",
+    "sortNum": 26562.5,
+    "created": "2023-04-12T10:16:39.855Z",
+    "modified": "2023-04-12T16:43:20.728Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
